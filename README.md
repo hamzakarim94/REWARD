@@ -9,4 +9,4 @@ To generate KNN distances, Use **Compute_KNN.py**. feat_path is the directory yo
 ## Computing Psuedo Lables
 To generate Psuedo Labels, use **Generate_Psuedo_Labels.py** and set the KNN save directory (`initial = 'KNN_UCF_UNI_6/'`) and the features save directory (`feat_path = "ucf_feats/"`) to the one used previously.
 ## Train and test
-Run **train.py** and **test.py** to train and test using the generated psuedo labels.
+Run **train.py** and **test.py** to train and test using the generated psuedo labels. Use `batch_size=1` when testing.
