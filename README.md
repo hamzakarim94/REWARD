@@ -11,8 +11,8 @@ To generate Psuedo Labels, use **Generate_Psuedo_Labels.py** and set the KNN sav
 ## Train and test
 Run **train.py** and **test.py** to train and test using the generated psuedo labels. Use `batch_size=1` when testing.
 ## Checkpoints
-Below are the links for the checkpoints trained on UCF-Crime and XD-Violence.
-Ucf-crime: https://drive.google.com/file/d/14HQKEoLl3ZinlTb1PmdMzWnmS67qcyQb/view?usp=sharing
-XD-Violence: https://drive.google.com/file/d/1o5AW5QFFpPpIfnHGznVn-maAooORRKFg/view?usp=sharing
+Below are the links for the checkpoints trained on UCF-Crime and XD-Violence.\n
+Ucf-crime: https://drive.google.com/file/d/14HQKEoLl3ZinlTb1PmdMzWnmS67qcyQb/view?usp=sharing\n
+XD-Violence: https://drive.google.com/file/d/1o5AW5QFFpPpIfnHGznVn-maAooORRKFg/view?usp=sharing\n
 Note that due to a data corruption issue we lost the orignal checkpoint for UCF-Crime, hence the model linked here has a slightly less auc at 86.4 instead of 86.9.
 
