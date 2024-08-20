@@ -1,0 +1,8 @@
+opencv-python
+torch
+pillow
+scikit-learn 
+timm
+decord
+numpy
+pandas
