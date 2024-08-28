@@ -14,20 +14,20 @@ from UTILS import Identity
 def extract_features(model,dataloader,extract_folder):
     model.eval()
 
-    for data,video_path in dataloader:
+    for data in dataloader:
 
         #shape = video.size()
         #video = torch.reshape(video,(1,shape[0],shape[1],shape[2],shape[3],shape[4]))
         #data = torch.stack(data)
-        if data == None or video_path == None:
+        if data[0] == None:
             break
 
-        label_data =video_path[0].split('/')[-1].split('.')[0]
+        label_data =data[2][0].split('/')[-1].split('.')[0]
         print(label_data)
         if os.path.exists(extract_folder + label_data+ '.npy'):
             continue
 
-        data = data[0]
+        data = data[1][0]
         out = []
         for segment in data:
             segment = torch.reshape(segment,(1,1,segment.shape[0],segment.shape[1],segment.shape[2],segment.shape[3]))
@@ -45,7 +45,7 @@ def extract_features(model,dataloader,extract_folder):
     return
 if __name__ == "__main__":
     extract_folder = "ucf_feats/" #Saves features to this Folder
-    data_loader = CustomVideoDataset(data="UCF_extract_features.csv",batch_size=1,test=True,prefix=".",video_prefix="ucf_segmented_videos/")# video_prefix is the directory where the segmented videos are saved
+    data_loader = CustomVideoDataset(data="UCF_extract_features.csv",batch_size=1,test=True,prefix=".",cfg=cfg,video_prefix="ucf_segmented_videos/")# video_prefix is the directory where the segmented videos are saved
     model = build_model(cfg)
     cu.load_test_checkpoint(cfg, model)
     model.head = Identity()

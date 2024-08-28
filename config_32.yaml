@@ -29,7 +29,7 @@ UNIFORMER:
   ATTENTION_DROPOUT_RATE: 0
   DROP_DEPTH_RATE: 0.1
   SPLIT: False
-  PRETRAIN_NAME: "ucf_e2e_87.48.pyth" #checkpoint_ucf/checkpoints/ucf_e2e_87.48.pyth , checkpoint_epoch_00005_XD_80.26.pyth,uniformer_base_k600_32x4.pth
+  PRETRAIN_NAME: "uniformer_base_k600_32x4.pth" #checkpoint_ucf/checkpoints/ucf_e2e_87.48.pyth , checkpoint_epoch_00005_XD_80.26.pyth,uniformer_base_k600_32x4.pth
 AUG:
   NUM_SAMPLE: 1
   ENABLE: True

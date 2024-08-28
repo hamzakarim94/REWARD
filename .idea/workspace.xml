@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="178dc8cc-0da9-48a4-8196-3a65902019b9" name="Changes" comment="Commit ver_1" />
+    <list default="true" id="178dc8cc-0da9-48a4-8196-3a65902019b9" name="Changes" comment="Commit ver_1">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/REWARD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/REWARD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UCF_extract_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UCF_extract_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_32.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config_32.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_features.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,24 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.COMPUTE_KNN_SINGLE.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KNN_extract.executor&quot;: &quot;Run&quot;,
-    &quot;Python.extract_features.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.train.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hamza/PycharmProjects/REWARD&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.COMPUTE_KNN_SINGLE.executor": "Run",
+    "Python.KNN_extract.executor": "Run",
+    "Python.extract_features.executor": "Debug",
+    "Python.test.executor": "Debug",
+    "Python.train.executor": "Debug",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/hamza/PycharmProjects/REWARD/extract_features.py"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="extract_features" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="REWARD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_features.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +88,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
@@ -123,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724178144466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit ver_1">
+      <option name="closed" value="true" />
+      <created>1724192275629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724192275629</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit ver_1">
+      <option name="closed" value="true" />
+      <created>1724192399806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724192399806</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

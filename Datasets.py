@@ -122,7 +122,7 @@ class CustomVideoDataset():
         return video_list
 
     def read_video(self, video_path,frame_count):
-        sampled_frames = sample_frames(video_path=video_path, frame_count=frame_count)
+        sampled_frames = sample_frames(self,video_path=video_path, frame_count=frame_count)
         sampled_frames_tensor = torch.stack([torch.tensor(frame) for frame in sampled_frames])
         normalized_frames = tensor_normalize(sampled_frames_tensor, mean, std)
         return normalized_frames
