@@ -10,3 +10,9 @@ To generate KNN distances, Use **Compute_KNN.py**. feat_path is the directory yo
 To generate Psuedo Labels, use **Generate_Psuedo_Labels.py** and set the KNN save directory (`initial = 'KNN_UCF_UNI_6/'`) and the features save directory (`feat_path = "ucf_feats/"`) to the one used previously.
 ## Train and test
 Run **train.py** and **test.py** to train and test using the generated psuedo labels. Use `batch_size=1` when testing.
+## Checkpoints
+Below are the links for the checkpoints trained on UCF-Crime and XD-Violence.<br/> 
+Ucf-crime: https://drive.google.com/file/d/14HQKEoLl3ZinlTb1PmdMzWnmS67qcyQb/view?usp=sharing<br/>
+XD-Violence: https://drive.google.com/file/d/1o5AW5QFFpPpIfnHGznVn-maAooORRKFg/view?usp=sharing<br/>
+Note that due to a data corruption issue we lost the orignal checkpoint for UCF-Crime, hence the model linked here has a slightly less auc at 86.4 instead of 86.9.
+
